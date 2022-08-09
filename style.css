@@ -1,0 +1,56 @@
+body {
+    font-family: Roboto;
+    /* font-weight: 500; */
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 4.5fr;
+    height: 100vh;
+}
+
+.sidebar {
+    grid-column: 1/2;
+    /* grid-row: 1fr; */
+    /* background-color: rgba(158,95,83,255); */
+    background-color: lightblue;
+    font-size: larger;
+    font-weight: Regular 400;
+}
+
+.main_body {
+    display: grid;
+    grid-template-rows: 150px 4fr;
+    /* background-color: rgba(84,96,121,255); */
+}
+
+.navmenu{
+    grid-row: 1/2;
+    /* background-color: rgba(177,148,103,255); */
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+
+.projects{
+    background-color: lightgrey;
+    /* background-color: aqua; */
+}
+
+.announcements{
+    /* background-color: lightgrey; */
+    background-color: bisque;
+}
+
+li{
+
+}
+
+#searchbar{
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
